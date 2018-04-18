@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/stephaniesmith/practice-use#readme",
   "dependencies": {
+    "chai": "^4.1.2",
     "express": "^4.16.3",
+    "morgan": "^1.9.0",
     "nodemon": "^1.17.3"
   }
 }
